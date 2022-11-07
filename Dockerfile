@@ -5,7 +5,6 @@
 
     RUN mkdir /run/php-fpm
     RUN yum install httpd -y
-    RUN yum install mysql-server mysql  -y
     RUN yum install php php-mysqlnd php-mbstring php-xml php-opcache php-fpm  -y
     RUN command mkdir -p /var/run/
 
